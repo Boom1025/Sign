@@ -34,7 +34,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="请选择一个wifi"
         android:id="@+id/textView_choice"
-        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textColor="@color/colorBlack"
         android:layout_below="@+id/Wifi_name"
         android:layout_centerHorizontal="true" />
 
@@ -44,7 +44,7 @@
         android:text="签到"
         android:id="@+id/Scan_check"
         android:onClick="Scan_Dao"
-        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textColor="@color/colorBlack"
         android:background="@drawable/circle"
         android:layout_alignTop="@+id/button_scaninfo"
         android:layout_alignStart="@+id/button3" />
@@ -65,7 +65,7 @@
         android:text="签退并退出"
         android:id="@+id/button_scanquit"
         android:onClick="Scanquit"
-        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textColor="@color/colorBlack"
         android:background="@drawable/circle"
         android:layout_below="@+id/Scan_check"
         android:layout_centerHorizontal="true"
@@ -77,7 +77,7 @@
         android:text="本人记录"
         android:id="@+id/button_scaninfo"
         android:onClick="Info_ScanDao"
-        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textColor="@color/colorBlack"
         android:background="@drawable/circle"
         android:layout_marginTop="32dp"
         android:layout_below="@+id/textView_choice"
@@ -99,7 +99,7 @@
         android:text="签到口令"
         android:id="@+id/textView7"
         android:textSize="20dp"
-        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textColor="@color/colorBlack"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -35,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_login);
         Bmob.initialize(this, "502aa80df90be300b2af61b48838cc90");
 
@@ -71,7 +71,7 @@ public class LoginActivity extends AppCompatActivity {
             //设置默认是自动登录状态
             auto_login.setChecked(true);
             //跳转界面
-            login();
+            //login();
 
         }
 
